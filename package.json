@@ -1,0 +1,22 @@
+{
+  "name": "bizzycar-api",
+  "version": "1.0.0",
+  "description": "an api to receive customer data",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "mocha app.test.js"
+  },
+  "author": "Mitchel Constantin",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.26.1",
+    "body-parser": "^1.19.2",
+    "chai": "^4.3.6",
+    "diskdb": "^0.1.17",
+    "express": "^4.17.3",
+    "jsonschema": "^1.4.0",
+    "mocha": "^9.2.2",
+    "nodemon": "^2.0.15"
+  }
+}
